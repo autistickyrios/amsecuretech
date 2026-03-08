@@ -1,9 +1,9 @@
-import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
-import HeroSection from '@/components/hero-section';
-import ServicesGrid from '@/components/services-grid';
-import FeatureSection from '@/components/feature-section';
-import CTASection from '@/components/cta-section';
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+import HeroSection from "@/components/hero-section";
+import ServicesGrid from "@/components/services-grid";
+import FeatureSection from "@/components/feature-section";
+import CTASection from "@/components/cta-section";
 import {
   Smartphone,
   Package,
@@ -12,50 +12,77 @@ import {
   Shield,
   Zap,
   Users,
-} from 'lucide-react';
+} from "lucide-react";
 
 const services = [
   {
     icon: Smartphone,
-    title: 'Mobile Development',
-    description: 'Custom iOS and Android applications built with cutting-edge technology.',
-    href: '/mobile-development',
+    title: "Mobile Development",
+    description:
+      "Custom Android and mobile applications designed for enterprise systems, operational tools, and government project requirements.",
+    href: "/mobile-development",
   },
   {
     icon: Package,
-    title: 'APK Development',
-    description: 'Professional APK development for Android platforms with full support.',
-    href: '/apk-development',
+    title: "APK Development",
+    description:
+      "Secure and optimized APK solutions built for controlled deployment, enterprise systems, and internal government applications.",
+    href: "/apk-development",
   },
   {
     icon: Camera,
-    title: 'CCTV Installation',
-    description: 'State-of-the-art surveillance systems for complete security coverage.',
-    href: '/cctv-installation',
+    title: "CCTV Installation",
+    description:
+      "Professional CCTV installation for offices, infrastructure projects, public facilities, and enterprise security systems.",
+    href: "/cctv-installation",
   },
   {
     icon: MapPin,
-    title: 'GPS Tracking',
-    description: 'Real-time tracking solutions for fleet management and asset monitoring.',
-    href: '/gps-tracking',
+    title: "GPS Tracking",
+    description:
+      "Advanced GPS tracking systems for vehicle fleets, logistics operations, and government infrastructure monitoring.",
+    href: "/gps-tracking",
   },
 ];
+
+// const features = [
+//   {
+//     icon: Shield,
+//     title: "Enterprise Security",
+//     description:
+//       "Industry-leading security practices to protect your business and data.",
+//   },
+//   {
+//     icon: Zap,
+//     title: "High Performance",
+//     description:
+//       "Optimized solutions that deliver fast, reliable results every time.",
+//   },
+//   {
+//     icon: Users,
+//     title: "Expert Support",
+//     description: "Dedicated team ready to support your business 24/7.",
+//   },
+// ];
 
 const features = [
   {
     icon: Shield,
-    title: 'Enterprise Security',
-    description: 'Industry-leading security practices to protect your business and data.',
+    title: "Security Focused",
+    description:
+      "Solutions built with strong security standards suitable for enterprise and government environments.",
   },
   {
     icon: Zap,
-    title: 'High Performance',
-    description: 'Optimized solutions that deliver fast, reliable results every time.',
+    title: "Reliable Infrastructure",
+    description:
+      "Technology deployments designed for long-term stability and operational efficiency.",
   },
   {
     icon: Users,
-    title: 'Expert Support',
-    description: 'Dedicated team ready to support your business 24/7.',
+    title: "Professional Deployment",
+    description:
+      "Experienced team handling installation, configuration, and long-term support.",
   },
 ];
 
@@ -65,11 +92,11 @@ export default function Home() {
       <Navbar />
       <main>
         <HeroSection
-          title="Secure Technology Solutions for Modern Business"
-          subtitle="AM SecureTech provides comprehensive technology and security services including mobile development, APK solutions, CCTV installation, and GPS tracking to keep your business safe and efficient."
-          ctaText="Get Started"
+          title="Technology & Security Solutions for Government and Enterprise Projects"
+          subtitle="AM SecureTech delivers reliable Mobile Development, APK Solutions, CCTV Installation, and GPS Tracking systems designed for government tenders, enterprises, and infrastructure projects across India."
+          ctaText="Get a Quote"
           ctaHref="/contact"
-          secondaryCtaText="Learn More"
+          secondaryCtaText="View Services"
           secondaryCtaHref="#services"
         />
 
